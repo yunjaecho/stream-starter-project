@@ -41,6 +41,8 @@ bin/kafka-run-class.sh org.apache.kafka.streams.examples.wordcount.WordCountDemo
 
 
 
+
+
 ## Custom WordCount Application
 ### zookeeper start
 bin/zookeeper-server-start.sh config/zookeeper.properties
