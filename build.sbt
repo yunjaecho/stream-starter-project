@@ -41,3 +41,5 @@ assemblyMergeStrategy in assembly := {
     val oldStrategy = (assemblyMergeStrategy in assembly).value
     oldStrategy(x)
 }
+
+mainClass in assembly := Some("com.yunjae.kafka.streams.StreamStarterApp")

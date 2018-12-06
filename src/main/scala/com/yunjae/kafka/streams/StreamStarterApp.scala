@@ -1,7 +1,6 @@
 package com.yunjae.kafka.streams
 
 import java.util.Properties
-import java.util.regex.Pattern
 
 import com.lightbend.kafka.scala.streams.{KTableS, StreamsBuilderS}
 import org.apache.kafka.common.serialization.Serdes
@@ -9,7 +8,6 @@ import org.apache.kafka.streams.{KafkaStreams, StreamsConfig}
 import com.lightbend.kafka.scala.streams.ImplicitConversions._
 import com.lightbend.kafka.scala.streams.DefaultSerdes._
 import org.apache.kafka.clients.consumer.ConsumerConfig
-import org.apache.kafka.streams.kstream.Produced
 
 object StreamStarterApp {
   def main(args: Array[String]): Unit = {
